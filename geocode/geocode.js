@@ -1,7 +1,7 @@
 const request = require('request');
 
 // Ggl API key
-const KEY = '&key=AIzaSyBKH4KlBvFEeufyeZDkkNZgnoy5qQpXaR0'
+const KEY = '&key=<api key here>'
 const URL = 'https://maps.googleapis.com/maps/api/geocode/json?'
 
 const geocodeAddress = (adr, callback) => {
